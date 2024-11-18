@@ -10,7 +10,7 @@ def main():
     csv_data = readcsv(file_path)
     uczestnicy_data = uczestnicy(csv_data)
 
-    # Pytanie o priorytet kolumn
+    # Pytanie o Piersza kolumne
     print("Co chcesz, aby było w pierwszej kolumnie? [Imię/Nazwisko]")
     priorytet = input("Twój wybór: ").strip()
 

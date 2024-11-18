@@ -6,3 +6,6 @@ class CSV:
             writer = csv.writer(csvfile)
             writer.writerows(data)
         print(f"Dane wyeksportowane do pliku {output_file} w formacie CSV.")
+
+
+# https://docs.python.org/3/library/csv.html

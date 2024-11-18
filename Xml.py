@@ -10,3 +10,5 @@ class Xml:
         tree = ET.ElementTree(root)
         tree.write(output_file, encoding='utf-8', xml_declaration=True)
         print(f"Dane wyeksportowane do pliku {output_file} w formacie XML.")
+
+#https://docs.python.org/3/library/xml.etree.elementtree.html
