@@ -1,9 +1,8 @@
-import Csv
+import csv
 
 class CSV:
-    def format(self, data, headers, output_file):
+    def format(self, data, output_file):
         with open(output_file, mode='w', newline='', encoding='utf-8') as csvfile:
-            writer = Csv.writer(csvfile)
-            writer.writerow(headers)
+            writer = csv.writer(csvfile)
             writer.writerows(data)
-        print(f"Data exported to {output_file} in CSV format.")
+        print(f"Dane wyeksportowane do pliku {output_file} w formacie CSV.")
